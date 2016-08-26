@@ -1,0 +1,45 @@
+body {
+    background: #f7f9fa;
+    font-weight: bold
+}
+
+.name {
+    color:#2c76c7;
+    vertical-align:10px;
+}
+
+.discription {
+    background-color: #ecf0f3;
+    font-weight: normal;
+}
+
+.pic {
+    width: 45px;
+    height: 45px;
+    margin-right: 5px;
+}
+
+.picRate {
+    margin-top: 10px;
+    margin-right: 5px;
+}
+
+.follow {
+    background: url(../image/tick.png) no-repeat center center;
+}
+
+.unfollow {
+    background: url(../image/plus.png) no-repeat center center;
+}
+
+.rate {
+    margin-top: 10px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+tr:nth-child(2n) {
+    background: #f6f6f6; /* Цвет фона */
+}
